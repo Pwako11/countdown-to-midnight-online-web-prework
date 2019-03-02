@@ -1,6 +1,6 @@
 #write your code here
 def countdown (counter)
-  counter = 10
+  counter > 0
   while counter > 1
   puts "#{counter} SECOND(S)!"
   counter -= 1
@@ -9,7 +9,7 @@ def countdown (counter)
 end
 
 def countdown_with_sleep(counter)
-  counter = 10
+  counter > 0
   while counter > 1
   puts "#{counter} SECOND(S)!"
 	counter -= 1
